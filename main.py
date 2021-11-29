@@ -1,19 +1,16 @@
-from SpectreMqtt import SpectreMqtt
+from periphery import PWM
 
-def callback(mission):
-    print(mission)
+# Open PWM chip 0, channel 10
+pwm = PWM(0, 0)
 
-def SpectreMqttClient():
-    # Quantum is 124
-    spectreClient = SpectreMqtt(124)
-    spectreClient.sendHeartbeat("Active")
+# Set frequency to 1 kHz
+pwm.frequency = 1e3
+# Set duty cycle to 75%
+pwm.duty_cycle = 1
 
-    spectreClient.newMissionCallback = callback
-    spectreClient.liveMissionStartCallback = callback
-    spectreClient.liveMissionStopCallback = callback
-    spectreClient.liveMissionCommandCallback = callback
+pwm.enable()
 
-    spectreClient.loopForever()
+while True:
+   continue 
 
-if __name__ == "__main__":
-    SpectreMqttClient()
+pwm.close()
