@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: spectre-api-client
+Version: 4.0.0
+Summary: Spectre Information Center API
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,Spectre Information Center API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+    Spectre Information Center API to access MySQL and Influx Databases.   # noqa: E501
+    
+

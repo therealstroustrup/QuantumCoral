@@ -1,0 +1,3 @@
+# ignore backup lib files created by eagle 
+*.l#*
+**/*.l#*

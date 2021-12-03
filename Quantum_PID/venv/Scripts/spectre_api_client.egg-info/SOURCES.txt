@@ -1,0 +1,5 @@
+spectre_api_client.egg-info/PKG-INFO
+spectre_api_client.egg-info/SOURCES.txt
+spectre_api_client.egg-info/dependency_links.txt
+spectre_api_client.egg-info/requires.txt
+spectre_api_client.egg-info/top_level.txt
